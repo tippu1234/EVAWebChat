@@ -1,0 +1,11 @@
+framework module EVAWebChat {
+  umbrella header "EVAWebChat.h"
+  export *
+
+  module * { export * }
+}
+
+module EVAWebChat.Swift {
+  header "EVAWebChat-Swift.h"
+  requires objc
+}

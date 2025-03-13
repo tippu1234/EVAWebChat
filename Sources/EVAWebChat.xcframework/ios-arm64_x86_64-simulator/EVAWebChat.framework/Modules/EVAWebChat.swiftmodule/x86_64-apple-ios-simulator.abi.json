@@ -1,0 +1,3848 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "EVAWebChat",
+    "printedName": "EVAWebChat",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EVAWebChatCameraDelegate",
+        "printedName": "EVAWebChatCameraDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "takePictureSuccess",
+            "printedName": "takePictureSuccess(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB14CameraDelegateP18takePictureSuccess5imageySo7UIImageC_tF",
+            "mangledName": "$s10EVAWebChat0aB14CameraDelegateP18takePictureSuccess5imageySo7UIImageC_tF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatCameraDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatCameraDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "takePictureFail",
+            "printedName": "takePictureFail()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB14CameraDelegateP15takePictureFailyyF",
+            "mangledName": "$s10EVAWebChat0aB14CameraDelegateP15takePictureFailyyF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatCameraDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatCameraDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10EVAWebChat0aB14CameraDelegateP",
+        "mangledName": "$s10EVAWebChat0aB14CameraDelegateP",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EVAWebChatCalendarDelegate",
+        "printedName": "EVAWebChatCalendarDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createCalendarEventSuccess",
+            "printedName": "createCalendarEventSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB16CalendarDelegateP06createC12EventSuccessyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB16CalendarDelegateP06createC12EventSuccessyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createCalendarEventFail",
+            "printedName": "createCalendarEventFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB16CalendarDelegateP06createC9EventFailyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB16CalendarDelegateP06createC9EventFailyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listCalendarEventSuccess",
+            "printedName": "listCalendarEventSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB16CalendarDelegateP04listC12EventSuccessyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB16CalendarDelegateP04listC12EventSuccessyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listCalendarEventFail",
+            "printedName": "listCalendarEventFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB16CalendarDelegateP04listC9EventFailyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB16CalendarDelegateP04listC9EventFailyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteCalendarEventSuccess",
+            "printedName": "deleteCalendarEventSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB16CalendarDelegateP06deleteC12EventSuccessyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB16CalendarDelegateP06deleteC12EventSuccessyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteCalendarEventFail",
+            "printedName": "deleteCalendarEventFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB16CalendarDelegateP06deleteC9EventFailyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB16CalendarDelegateP06deleteC9EventFailyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatCalendarDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10EVAWebChat0aB16CalendarDelegateP",
+        "mangledName": "$s10EVAWebChat0aB16CalendarDelegateP",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EVAWebChatContactDelegate",
+        "printedName": "EVAWebChatContactDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "addContactSuccess",
+            "printedName": "addContactSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB15ContactDelegateP03addC7SuccessyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB15ContactDelegateP03addC7SuccessyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatContactDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatContactDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addContactFail",
+            "printedName": "addContactFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB15ContactDelegateP03addC4FailyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB15ContactDelegateP03addC4FailyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatContactDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatContactDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getContactsSuccess",
+            "printedName": "getContactsSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB15ContactDelegateP18getContactsSuccessyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB15ContactDelegateP18getContactsSuccessyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatContactDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatContactDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getContactsFail",
+            "printedName": "getContactsFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB15ContactDelegateP15getContactsFailyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB15ContactDelegateP15getContactsFailyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatContactDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatContactDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pickContactSuccess",
+            "printedName": "pickContactSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB15ContactDelegateP04pickC7SuccessyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB15ContactDelegateP04pickC7SuccessyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatContactDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatContactDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pickContactFail",
+            "printedName": "pickContactFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB15ContactDelegateP04pickC4FailyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB15ContactDelegateP04pickC4FailyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAWebChatContactDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAWebChatContactDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10EVAWebChat0aB15ContactDelegateP",
+        "mangledName": "$s10EVAWebChat0aB15ContactDelegateP",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EVAChatBotDelegate",
+        "printedName": "EVAChatBotDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showChatBotSuccess",
+            "printedName": "showChatBotSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat18EVAChatBotDelegateP04showbD7SuccessyySDySSypGF",
+            "mangledName": "$s10EVAWebChat18EVAChatBotDelegateP04showbD7SuccessyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAChatBotDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAChatBotDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showChatBotFail",
+            "printedName": "showChatBotFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat18EVAChatBotDelegateP04showbD4FailyySDySSypGF",
+            "mangledName": "$s10EVAWebChat18EVAChatBotDelegateP04showbD4FailyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAChatBotDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAChatBotDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeChatBotSuccess",
+            "printedName": "closeChatBotSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat18EVAChatBotDelegateP05closebD7SuccessyySDySSypGF",
+            "mangledName": "$s10EVAWebChat18EVAChatBotDelegateP05closebD7SuccessyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAChatBotDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAChatBotDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeChatBotFail",
+            "printedName": "closeChatBotFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat18EVAChatBotDelegateP05closebD4FailyySDySSypGF",
+            "mangledName": "$s10EVAWebChat18EVAChatBotDelegateP05closebD4FailyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAChatBotDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAChatBotDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "minimizeChatBotSuccess",
+            "printedName": "minimizeChatBotSuccess(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat18EVAChatBotDelegateP08minimizebD7SuccessyySDySSypGF",
+            "mangledName": "$s10EVAWebChat18EVAChatBotDelegateP08minimizebD7SuccessyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAChatBotDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAChatBotDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "minimizeChatBotFail",
+            "printedName": "minimizeChatBotFail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat18EVAChatBotDelegateP08minimizebD4FailyySDySSypGF",
+            "mangledName": "$s10EVAWebChat18EVAChatBotDelegateP08minimizebD4FailyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "genericSig": "<τ_0_0 where τ_0_0 : EVAWebChat.EVAChatBotDelegate>",
+            "sugared_genericSig": "<Self where Self : EVAWebChat.EVAChatBotDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10EVAWebChat18EVAChatBotDelegateP",
+        "mangledName": "$s10EVAWebChat18EVAChatBotDelegateP",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "evaWebChat",
+        "printedName": "evaWebChat",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "EVAWebChatSDK",
+            "printedName": "EVAWebChat.EVAWebChatSDK",
+            "usr": "c:@M@EVAWebChat@objc(cs)EVAWebChatSDK"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:10EVAWebChat06evaWebB0AA0aB3SDKCvp",
+        "mangledName": "$s10EVAWebChat06evaWebB0AA0aB3SDKCvp",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EVAWebChatSDK",
+                "printedName": "EVAWebChat.EVAWebChatSDK",
+                "usr": "c:@M@EVAWebChat@objc(cs)EVAWebChatSDK"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:10EVAWebChat06evaWebB0AA0aB3SDKCvg",
+            "mangledName": "$s10EVAWebChat06evaWebB0AA0aB3SDKCvg",
+            "moduleName": "EVAWebChat",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EVAWebChatSDK",
+        "printedName": "EVAWebChatSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EVAWebChatSDK",
+                "printedName": "EVAWebChat.EVAWebChatSDK",
+                "usr": "c:@M@EVAWebChat@objc(cs)EVAWebChatSDK"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10EVAWebChat0aB3SDKC7defaultACvpZ",
+            "mangledName": "$s10EVAWebChat0aB3SDKC7defaultACvpZ",
+            "moduleName": "EVAWebChat",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EVAWebChatSDK",
+                    "printedName": "EVAWebChat.EVAWebChatSDK",
+                    "usr": "c:@M@EVAWebChat@objc(cs)EVAWebChatSDK"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC7defaultACvgZ",
+                "mangledName": "$s10EVAWebChat0aB3SDKC7defaultACvgZ",
+                "moduleName": "EVAWebChat",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraDelegate",
+            "printedName": "cameraDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any EVAWebChat.EVAWebChatCameraDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EVAWebChatCameraDelegate",
+                    "printedName": "any EVAWebChat.EVAWebChatCameraDelegate",
+                    "usr": "s:10EVAWebChat0aB14CameraDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10EVAWebChat0aB3SDKC14cameraDelegateAA0ab6CameraE0_pSgvp",
+            "mangledName": "$s10EVAWebChat0aB3SDKC14cameraDelegateAA0ab6CameraE0_pSgvp",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EVAWebChat.EVAWebChatCameraDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EVAWebChatCameraDelegate",
+                        "printedName": "any EVAWebChat.EVAWebChatCameraDelegate",
+                        "usr": "s:10EVAWebChat0aB14CameraDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC14cameraDelegateAA0ab6CameraE0_pSgvg",
+                "mangledName": "$s10EVAWebChat0aB3SDKC14cameraDelegateAA0ab6CameraE0_pSgvg",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EVAWebChat.EVAWebChatCameraDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EVAWebChatCameraDelegate",
+                        "printedName": "any EVAWebChat.EVAWebChatCameraDelegate",
+                        "usr": "s:10EVAWebChat0aB14CameraDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC14cameraDelegateAA0ab6CameraE0_pSgvs",
+                "mangledName": "$s10EVAWebChat0aB3SDKC14cameraDelegateAA0ab6CameraE0_pSgvs",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC14cameraDelegateAA0ab6CameraE0_pSgvM",
+                "mangledName": "$s10EVAWebChat0aB3SDKC14cameraDelegateAA0ab6CameraE0_pSgvM",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "calendarDelegate",
+            "printedName": "calendarDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any EVAWebChat.EVAWebChatCalendarDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EVAWebChatCalendarDelegate",
+                    "printedName": "any EVAWebChat.EVAWebChatCalendarDelegate",
+                    "usr": "s:10EVAWebChat0aB16CalendarDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10EVAWebChat0aB3SDKC16calendarDelegateAA0ab8CalendarE0_pSgvp",
+            "mangledName": "$s10EVAWebChat0aB3SDKC16calendarDelegateAA0ab8CalendarE0_pSgvp",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EVAWebChat.EVAWebChatCalendarDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EVAWebChatCalendarDelegate",
+                        "printedName": "any EVAWebChat.EVAWebChatCalendarDelegate",
+                        "usr": "s:10EVAWebChat0aB16CalendarDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC16calendarDelegateAA0ab8CalendarE0_pSgvg",
+                "mangledName": "$s10EVAWebChat0aB3SDKC16calendarDelegateAA0ab8CalendarE0_pSgvg",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EVAWebChat.EVAWebChatCalendarDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EVAWebChatCalendarDelegate",
+                        "printedName": "any EVAWebChat.EVAWebChatCalendarDelegate",
+                        "usr": "s:10EVAWebChat0aB16CalendarDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC16calendarDelegateAA0ab8CalendarE0_pSgvs",
+                "mangledName": "$s10EVAWebChat0aB3SDKC16calendarDelegateAA0ab8CalendarE0_pSgvs",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC16calendarDelegateAA0ab8CalendarE0_pSgvM",
+                "mangledName": "$s10EVAWebChat0aB3SDKC16calendarDelegateAA0ab8CalendarE0_pSgvM",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contactDelegate",
+            "printedName": "contactDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any EVAWebChat.EVAWebChatContactDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EVAWebChatContactDelegate",
+                    "printedName": "any EVAWebChat.EVAWebChatContactDelegate",
+                    "usr": "s:10EVAWebChat0aB15ContactDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10EVAWebChat0aB3SDKC15contactDelegateAA0ab7ContactE0_pSgvp",
+            "mangledName": "$s10EVAWebChat0aB3SDKC15contactDelegateAA0ab7ContactE0_pSgvp",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EVAWebChat.EVAWebChatContactDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EVAWebChatContactDelegate",
+                        "printedName": "any EVAWebChat.EVAWebChatContactDelegate",
+                        "usr": "s:10EVAWebChat0aB15ContactDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC15contactDelegateAA0ab7ContactE0_pSgvg",
+                "mangledName": "$s10EVAWebChat0aB3SDKC15contactDelegateAA0ab7ContactE0_pSgvg",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EVAWebChat.EVAWebChatContactDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EVAWebChatContactDelegate",
+                        "printedName": "any EVAWebChat.EVAWebChatContactDelegate",
+                        "usr": "s:10EVAWebChat0aB15ContactDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC15contactDelegateAA0ab7ContactE0_pSgvs",
+                "mangledName": "$s10EVAWebChat0aB3SDKC15contactDelegateAA0ab7ContactE0_pSgvs",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC15contactDelegateAA0ab7ContactE0_pSgvM",
+                "mangledName": "$s10EVAWebChat0aB3SDKC15contactDelegateAA0ab7ContactE0_pSgvM",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "evaChatBotDelegate",
+            "printedName": "evaChatBotDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any EVAWebChat.EVAChatBotDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EVAChatBotDelegate",
+                    "printedName": "any EVAWebChat.EVAChatBotDelegate",
+                    "usr": "s:10EVAWebChat18EVAChatBotDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10EVAWebChat0aB3SDKC03evaB11BotDelegateAA07EVAChateF0_pSgvp",
+            "mangledName": "$s10EVAWebChat0aB3SDKC03evaB11BotDelegateAA07EVAChateF0_pSgvp",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EVAWebChat.EVAChatBotDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EVAChatBotDelegate",
+                        "printedName": "any EVAWebChat.EVAChatBotDelegate",
+                        "usr": "s:10EVAWebChat18EVAChatBotDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC03evaB11BotDelegateAA07EVAChateF0_pSgvg",
+                "mangledName": "$s10EVAWebChat0aB3SDKC03evaB11BotDelegateAA07EVAChateF0_pSgvg",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any EVAWebChat.EVAChatBotDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EVAChatBotDelegate",
+                        "printedName": "any EVAWebChat.EVAChatBotDelegate",
+                        "usr": "s:10EVAWebChat18EVAChatBotDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC03evaB11BotDelegateAA07EVAChateF0_pSgvs",
+                "mangledName": "$s10EVAWebChat0aB3SDKC03evaB11BotDelegateAA07EVAChateF0_pSgvs",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10EVAWebChat0aB3SDKC03evaB11BotDelegateAA07EVAChateF0_pSgvM",
+                "mangledName": "$s10EVAWebChat0aB3SDKC03evaB11BotDelegateAA07EVAChateF0_pSgvM",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initializeSDK",
+            "printedName": "initializeSDK(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC010initializeC0ySDySSypGAE_So22UINavigationControllerCSgtF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC010initializeC0ySDySSypGAE_So22UINavigationControllerCSgtF",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showChatBotView",
+            "printedName": "showChatBotView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC04showB7BotViewyySo6UIViewCF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC04showB7BotViewyySo6UIViewCF",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeChatBotView",
+            "printedName": "closeChatBotView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC05closeB7BotViewyySo6UIViewCF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC05closeB7BotViewyySo6UIViewCF",
+            "moduleName": "EVAWebChat",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateScripts",
+            "printedName": "updateScripts(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC13updateScriptsyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC13updateScriptsyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "takePicture",
+            "printedName": "takePicture(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC11takePictureyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC11takePictureyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkBrightness",
+            "printedName": "checkBrightness(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC15checkBrightnessySDySSypGSo7UIImageCF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC15checkBrightnessySDySSypGSo7UIImageCF",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkForBlur",
+            "printedName": "checkForBlur(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC12checkForBlurySDySSypGSo7UIImageCF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC12checkForBlurySDySSypGSo7UIImageCF",
+            "moduleName": "EVAWebChat",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createCalendarEvent",
+            "printedName": "createCalendarEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC19createCalendarEventyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC19createCalendarEventyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listCalendarEvents",
+            "printedName": "listCalendarEvents(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC18listCalendarEventsyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC18listCalendarEventsyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteCalendarEvents",
+            "printedName": "deleteCalendarEvents(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC20deleteCalendarEventsyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC20deleteCalendarEventsyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addContact",
+            "printedName": "addContact(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC10addContactyySDySSypGF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC10addContactyySDySSypGF",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getContacts",
+            "printedName": "getContacts()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC11getContactsyyF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC11getContactsyyF",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pickContact",
+            "printedName": "pickContact()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10EVAWebChat0aB3SDKC11pickContactyyF",
+            "mangledName": "$s10EVAWebChat0aB3SDKC11pickContactyyF",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EVAWebChat@objc(cs)EVAWebChatSDK",
+        "mangledName": "$s10EVAWebChat0aB3SDKC",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat"
+      },
+      {
+        "kind": "Import",
+        "name": "ContactsUI",
+        "printedName": "ContactsUI",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Contacts",
+        "printedName": "Contacts",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EVAWebChatContactsErrorCode",
+        "printedName": "EVAWebChatContactsErrorCode",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Permission",
+            "printedName": "Permission",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "PermissionUsageDescriptionMissing",
+                "printedName": "PermissionUsageDescriptionMissing",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Permission",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Permission",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO0F23UsageDescriptionMissingyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO0F23UsageDescriptionMissingyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "PermissionDenied",
+                "printedName": "PermissionDenied",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Permission",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Permission",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO0F6DeniedyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO0F6DeniedyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "InvalidEventTarget",
+                "printedName": "InvalidEventTarget",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Permission",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Permission",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO18InvalidEventTargetyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO18InvalidEventTargetyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "InvalidEventData",
+                "printedName": "InvalidEventData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Permission",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Permission",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO16InvalidEventDatayA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO16InvalidEventDatayA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "Unsupported",
+                "printedName": "Unsupported",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Permission",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Permission",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO11UnsupportedyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO11UnsupportedyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "Unknown",
+                "printedName": "Unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Permission",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Permission",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO7UnknownyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO7UnknownyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Permission",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Permission",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO8rawValueAESgSi_tcfc",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO8rawValueAESgSi_tcfc",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO8rawValueSivp",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO8rawValueSivp",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO8rawValueSivg",
+                    "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO8rawValueSivg",
+                    "moduleName": "EVAWebChat",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO10PermissionO",
+            "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO10PermissionO",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Events",
+            "printedName": "Events",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "PickContactNotSelected",
+                "printedName": "PickContactNotSelected",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Events.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Events",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Events",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO22PickContactNotSelectedyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO22PickContactNotSelectedyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "UnableToPickParticularContactDetail",
+                "printedName": "UnableToPickParticularContactDetail",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Events.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Events",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Events",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO35UnableToPickParticularContactDetailyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO35UnableToPickParticularContactDetailyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "ErrorWhileReadingContact",
+                "printedName": "ErrorWhileReadingContact",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Events.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Events",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Events",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO0D19WhileReadingContactyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO0D19WhileReadingContactyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "FailedToAddNewContact",
+                "printedName": "FailedToAddNewContact",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Events.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Events",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Events",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO21FailedToAddNewContactyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO21FailedToAddNewContactyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "FailedToUpdateContact",
+                "printedName": "FailedToUpdateContact",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Events.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Events",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Events",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO21FailedToUpdateContactyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO21FailedToUpdateContactyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "FailedToDeleteContact",
+                "printedName": "FailedToDeleteContact",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Events.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Events",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Events",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO21FailedToDeleteContactyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO21FailedToDeleteContactyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "Unknown",
+                "printedName": "Unknown",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Events.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Events",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Events",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO7UnknownyA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO7UnknownyA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "MissingInputData",
+                "printedName": "MissingInputData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(EVAWebChat.EVAWebChatContactsErrorCode.Events.Type) -> EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Events",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Events",
+                            "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO16MissingInputDatayA2EmF",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO16MissingInputDatayA2EmF",
+                "moduleName": "EVAWebChat",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Events",
+                        "printedName": "EVAWebChat.EVAWebChatContactsErrorCode.Events",
+                        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO8rawValueAESgSi_tcfc",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO8rawValueAESgSi_tcfc",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO8rawValueSivp",
+                "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO8rawValueSivp",
+                "moduleName": "EVAWebChat",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO8rawValueSivg",
+                    "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO8rawValueSivg",
+                    "moduleName": "EVAWebChat",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO6EventsO",
+            "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO6EventsO",
+            "moduleName": "EVAWebChat",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10EVAWebChat0aB17ContactsErrorCodeO",
+        "mangledName": "$s10EVAWebChat0aB17ContactsErrorCodeO",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EVAWebChatContactsError",
+        "printedName": "EVAWebChatContactsError",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EVAWebChatContactsError",
+                "printedName": "EVAWebChat.EVAWebChatContactsError",
+                "usr": "c:@M@EVAWebChat@objc(cs)EVAWebChatContactsError"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@EVAWebChat@objc(cs)EVAWebChatContactsError(im)init",
+            "mangledName": "$s10EVAWebChat0aB13ContactsErrorCACycfc",
+            "moduleName": "EVAWebChat",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EVAWebChat@objc(cs)EVAWebChatContactsError",
+        "mangledName": "$s10EVAWebChat0aB13ContactsErrorC",
+        "moduleName": "EVAWebChat",
+        "objc_name": "EVAWebChatContactsError",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JSONObject",
+        "printedName": "JSONObject",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "countByEnumerating",
+            "printedName": "countByEnumerating(with:objects:count:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutablePointer",
+                "printedName": "Swift.UnsafeMutablePointer<Foundation.NSFastEnumerationState>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSFastEnumerationState",
+                    "printedName": "Foundation.NSFastEnumerationState",
+                    "usr": "c:@SA@NSFastEnumerationState"
+                  }
+                ],
+                "usr": "s:Sp"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutoreleasingUnsafeMutablePointer",
+                "printedName": "Swift.AutoreleasingUnsafeMutablePointer<AnyObject?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AnyObject?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SA"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@EVAWebChat@objc(cs)JSONObject(im)countByEnumeratingWithState:objects:count:",
+            "mangledName": "$s10EVAWebChat10JSONObjectC18countByEnumerating4with7objects0D0SiSpySo22NSFastEnumerationStateaG_SAyyXlSgGSitF",
+            "moduleName": "EVAWebChat",
+            "objc_name": "countByEnumeratingWithState:objects:count:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@EVAWebChat@objc(cs)JSONObject",
+        "mangledName": "$s10EVAWebChat10JSONObjectC",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "EventKit",
+        "printedName": "EventKit",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat"
+      },
+      {
+        "kind": "Import",
+        "name": "EventKitUI",
+        "printedName": "EventKitUI",
+        "declKind": "Import",
+        "moduleName": "EVAWebChat"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1671,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "Dictionary",
+      "offset": 2339,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2387,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2516,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 2620,
+      "length": 42,
+      "value": "\"resource:\/\/evawebchatresource\/index.html\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "Array",
+      "offset": 2690,
+      "length": 250,
+      "value": "[\"c20c1076-5569-4e8b-a3f0-80596a901d80\", \"8366b73b-8908-4199-9ba1-3ac888a984ee\", \"7fd30739-620a-4553-b444-806cf6d8ccf9\", \"f132b433-f97f-4d2d-a8cf-d33a26b76216\", \"e324c67b-6563-4a4e-8fcc-421ffa9a6d5d\"]"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3019,
+      "length": 20,
+      "value": "\"2025-04-1 23:59:59\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3075,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3117,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3158,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3203,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 24,
+      "value": "\"com.openstream.WebChat\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 879,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 948,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 990,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 1092,
+      "length": 45,
+      "value": "\"resource:\/\/workbench\/application-error.html\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatView.swift",
+      "kind": "Dictionary",
+      "offset": 1211,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAWebChatView.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 84,
+      "value": "\"EVAWebChatView: CuemeWebViewConfigurator NOT found... creating a new WKProcessPool\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 4,
+      "value": "8887"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 467,
+      "length": 4,
+      "value": "8888"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 575,
+      "length": 4,
+      "value": "9000"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 4,
+      "value": "9001"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 740,
+      "length": 4,
+      "value": "9002"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 797,
+      "length": 4,
+      "value": "9999"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 980,
+      "length": 4,
+      "value": "1001"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1086,
+      "length": 4,
+      "value": "1002"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1176,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1253,
+      "length": 4,
+      "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1329,
+      "length": 4,
+      "value": "1004"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1405,
+      "length": 4,
+      "value": "1005"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1457,
+      "length": 3,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1563,
+      "length": 3,
+      "value": "998"
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 1882,
+      "length": 11,
+      "value": "\"errorCode\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 1916,
+      "length": 14,
+      "value": "\"errorMessage\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 1957,
+      "length": 18,
+      "value": "\"errorDescription\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 1997,
+      "length": 13,
+      "value": "\"errorDomain\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 29,
+      "value": "\"com.openstream.eva.contacts\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 2622,
+      "length": 38,
+      "value": "\"permission_usage_description_missing\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 2695,
+      "length": 46,
+      "value": "\"Usage description missing in Info.plist file\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 2984,
+      "length": 18,
+      "value": "\"permission_error\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 3037,
+      "length": 25,
+      "value": "\"User denied permissions\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 3309,
+      "length": 22,
+      "value": "\"invalid_event_target\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 3366,
+      "length": 22,
+      "value": "\"Invalid event target\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 3631,
+      "length": 20,
+      "value": "\"invalid_event_data\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 3686,
+      "length": 21,
+      "value": "\"Invalid event data.\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 3940,
+      "length": 13,
+      "value": "\"unsupported\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 3988,
+      "length": 24,
+      "value": "\"Unsupported operation,\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4237,
+      "length": 15,
+      "value": "\"unknown_error\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4287,
+      "length": 16,
+      "value": "\"unknown error.\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4476,
+      "length": 96,
+      "value": "\"contact-\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4571,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4603,
+      "length": 22,
+      "value": "\"contact_not_selected\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4660,
+      "length": 25,
+      "value": "\"Contact is not selected\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4831,
+      "length": 109,
+      "value": "\"contact-\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4939,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 4971,
+      "length": 31,
+      "value": "\"unable_to_get_contact_details\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5037,
+      "length": 73,
+      "value": "\"Error while reading contact....Unable to get particular contact details\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5245,
+      "length": 98,
+      "value": "\"contact-\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5342,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5374,
+      "length": 23,
+      "value": "\"error_reading_contact\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5432,
+      "length": 29,
+      "value": "\"Error while reading contact\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5588,
+      "length": 90,
+      "value": "\"contact-\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5677,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5709,
+      "length": 20,
+      "value": "\"missing_input_data\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5764,
+      "length": 20,
+      "value": "\"Missing Input Data\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 5916,
+      "length": 95,
+      "value": "\"contact-\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6010,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6042,
+      "length": 27,
+      "value": "\"failed_to_add_new_contact\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6104,
+      "length": 27,
+      "value": "\"Failed to add new contact\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6263,
+      "length": 95,
+      "value": "\"contact-\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6357,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6389,
+      "length": 26,
+      "value": "\"failed_to_update_contact\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6450,
+      "length": 26,
+      "value": "\"Failed to update contact\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6608,
+      "length": 95,
+      "value": "\"contact-\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6702,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6734,
+      "length": 26,
+      "value": "\"failed_to_delete_contact\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6795,
+      "length": 45,
+      "value": "\"Failed to delete particular contact details\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 6958,
+      "length": 109,
+      "value": "\"contact-\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 7066,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 7098,
+      "length": 15,
+      "value": "\"unknown_error\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/EVAContactsHandler\/EVAWebChatContactsError.swift",
+      "kind": "StringLiteral",
+      "offset": 7148,
+      "length": 16,
+      "value": "\"unknown error.\""
+    },
+    {
+      "filePath": "\/Users\/sulthan\/Work\/Frameworks\/WebChatDemoApp\/EVAWebChat\/evawebchatframework\/EVAWebChat\/JSONObject.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

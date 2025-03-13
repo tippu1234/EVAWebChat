@@ -1,0 +1,121 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EVAWebChat
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import AVFoundation
+import Contacts
+import ContactsUI
+@_exported import EVAWebChat
+import EventKit
+import EventKitUI
+import Foundation
+import MobileCoreServices
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol EVAWebChatCameraDelegate {
+  func takePictureSuccess(image: UIKit.UIImage)
+  func takePictureFail()
+}
+public protocol EVAWebChatCalendarDelegate {
+  func createCalendarEventSuccess(_ response: [Swift.String : Any])
+  func createCalendarEventFail(_ errorResponse: [Swift.String : Any])
+  func listCalendarEventSuccess(_ response: [Swift.String : Any])
+  func listCalendarEventFail(_ errorResponse: [Swift.String : Any])
+  func deleteCalendarEventSuccess(_ response: [Swift.String : Any])
+  func deleteCalendarEventFail(_ errorResponse: [Swift.String : Any])
+}
+public protocol EVAWebChatContactDelegate {
+  func addContactSuccess(_ response: [Swift.String : Any])
+  func addContactFail(_ errorResponse: [Swift.String : Any])
+  func getContactsSuccess(_ response: [Swift.String : Any])
+  func getContactsFail(_ errorResponse: [Swift.String : Any])
+  func pickContactSuccess(_ response: [Swift.String : Any])
+  func pickContactFail(_ errorResponse: [Swift.String : Any])
+}
+public protocol EVAChatBotDelegate {
+  func showChatBotSuccess(_ response: [Swift.String : Any])
+  func showChatBotFail(_ errorResponse: [Swift.String : Any])
+  func closeChatBotSuccess(_ response: [Swift.String : Any])
+  func closeChatBotFail(_ errorResponse: [Swift.String : Any])
+  func minimizeChatBotSuccess(_ response: [Swift.String : Any])
+  func minimizeChatBotFail(_ errorResponse: [Swift.String : Any])
+}
+public let evaWebChat: EVAWebChat.EVAWebChatSDK
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class EVAWebChatSDK : ObjectiveC.NSObject {
+  public static let `default`: EVAWebChat.EVAWebChatSDK
+  public var cameraDelegate: (any EVAWebChat.EVAWebChatCameraDelegate)?
+  public var calendarDelegate: (any EVAWebChat.EVAWebChatCalendarDelegate)?
+  public var contactDelegate: (any EVAWebChat.EVAWebChatContactDelegate)?
+  public var evaChatBotDelegate: (any EVAWebChat.EVAChatBotDelegate)?
+  public func initializeSDK(_ config: [Swift.String : Any], _ navigationController: UIKit.UINavigationController?) -> [Swift.String : Any]
+  @objc deinit
+}
+extension EVAWebChat.EVAWebChatSDK {
+  public func showChatBotView(_ superView: UIKit.UIView)
+  public func closeChatBotView(_ superView: UIKit.UIView)
+  public func updateScripts(_ params: [Swift.String : Any])
+}
+extension EVAWebChat.EVAWebChatSDK {
+  public func takePicture(_ params: [Swift.String : Any])
+}
+extension EVAWebChat.EVAWebChatSDK {
+  public func checkBrightness(_ image: UIKit.UIImage) -> [Swift.String : Any]
+  public func checkForBlur(_ image: UIKit.UIImage) -> [Swift.String : Any]
+}
+extension EVAWebChat.EVAWebChatSDK {
+  public func createCalendarEvent(_ params: [Swift.String : Any])
+  public func listCalendarEvents(_ params: [Swift.String : Any])
+  public func deleteCalendarEvents(_ params: [Swift.String : Any])
+}
+extension EVAWebChat.EVAWebChatSDK {
+  public func addContact(_ params: [Swift.String : Any])
+  public func getContacts()
+  public func pickContact()
+}
+public enum EVAWebChatContactsErrorCode {
+  public enum Permission : Swift.Int {
+    case PermissionUsageDescriptionMissing
+    case PermissionDenied
+    case InvalidEventTarget
+    case InvalidEventData
+    case Unsupported
+    case Unknown
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum Events : Swift.Int {
+    case PickContactNotSelected
+    case UnableToPickParticularContactDetail
+    case ErrorWhileReadingContact
+    case FailedToAddNewContact
+    case FailedToUpdateContact
+    case FailedToDeleteContact
+    case Unknown
+    case MissingInputData
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
+@_hasMissingDesignatedInitializers @objc(EVAWebChatContactsError) public class EVAWebChatContactsError : ObjectiveC.NSObject {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class JSONObject : ObjectiveC.NSObject, Foundation.NSFastEnumeration {
+  @objc public func countByEnumerating(with state: Swift.UnsafeMutablePointer<Foundation.NSFastEnumerationState>, objects stackbuf: Swift.AutoreleasingUnsafeMutablePointer<Swift.AnyObject?>, count len: Swift.Int) -> Swift.Int
+  @objc deinit
+}
+extension EVAWebChat.EVAWebChatContactsErrorCode.Permission : Swift.Equatable {}
+extension EVAWebChat.EVAWebChatContactsErrorCode.Permission : Swift.Hashable {}
+extension EVAWebChat.EVAWebChatContactsErrorCode.Permission : Swift.RawRepresentable {}
+extension EVAWebChat.EVAWebChatContactsErrorCode.Events : Swift.Equatable {}
+extension EVAWebChat.EVAWebChatContactsErrorCode.Events : Swift.Hashable {}
+extension EVAWebChat.EVAWebChatContactsErrorCode.Events : Swift.RawRepresentable {}
