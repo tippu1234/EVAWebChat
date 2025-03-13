@@ -196,16 +196,16 @@ scxmlHandler.getAjax = function (obj) {
 }
 
 scxmlHandler.setAgentChatIcon = function () {
-  var avatarsections = document.querySelectorAll("div.webchat__imageAvatar__image");
-  if (avatarsections) {
-    var lastavatr = avatarsections[avatarsections.length - 1];
-    if (lastavatr) {
-      var curimg = lastavatr.childNodes[0];
-      if (curimg) {
-        curimg.src = "../assets/images/lucid_chatboticon.svg";
-      }
-    }
-  }
+  // var avatarsections = document.querySelectorAll("div.webchat__imageAvatar__image");
+  // if (avatarsections) {
+  //   var lastavatr = avatarsections[avatarsections.length - 1];
+  //   if (lastavatr) {
+  //     var curimg = lastavatr.childNodes[0];
+  //     if (curimg) {
+  //       curimg.src = "../assets/images/lucid_chatboticon.svg";
+  //     }
+  //   }
+  // }
 }
 
 scxmlHandler.hideAllConversationMessages = function () {

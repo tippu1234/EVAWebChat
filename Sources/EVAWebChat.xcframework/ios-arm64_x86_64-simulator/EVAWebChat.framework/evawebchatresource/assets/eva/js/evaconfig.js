@@ -89,15 +89,6 @@ var evaConfiguration = {
         "options": [
           { "id": "speech", "label": "Speech", "value": "speech" }
         ]
-      },
-      {
-        "id": "botuitheme",
-        "label": "Dark Theme",
-        "checked": false,
-        "type": "toggle",
-        "options": [
-          { "id": "dark", "label": "Dark", "value": "dark" }
-        ]
       }
     ]
   },
